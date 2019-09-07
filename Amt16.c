@@ -9,7 +9,8 @@ void main()
     {printf("no. has less than 2 digit");
     }
   else
-    n=n%100;
+    { n=n%100;
     n=n/10;
+    }
   printf("the second last digit  is %d",n);
   }
