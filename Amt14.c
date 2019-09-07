@@ -4,6 +4,7 @@ void main()
   {
   int n;
   printf("please enter the no. of which you want to delete last digit");
+  scanf("%d",&n);
   if(n/10==0)
     {printf("no. is single digit, no digit left after deletion");
     }
