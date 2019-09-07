@@ -5,7 +5,7 @@ void main()
   {
   int n;
   printf("please enter the no. of which you want to delete 2nd last digit");
-  scanf("%d",n);
+  scanf("%d",&n);
   if(n/10==0)
     {printf("no. has only one digit");
      }
