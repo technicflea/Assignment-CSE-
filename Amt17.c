@@ -9,7 +9,8 @@ void main()
     {printf("no. has less than two digits");
     }
   else
-    n=n%100;
+    {n=n%100;
     n=(n%10)+(n/10);
+    }
   printf("the sum of last two digits is %d",n);
   }
