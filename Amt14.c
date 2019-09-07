@@ -9,6 +9,6 @@ void main()
     {printf("no. is single digit, no digit left after deletion");
     }
   else
-    n=n/10;
+    {n=n/10;}
   printf("the no. after deletion of last digit is %d",n);
   }
