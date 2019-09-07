@@ -11,6 +11,6 @@ void main()
     {printf("no. has less than 3 digits, no digit left after deletion");
     }
   else
-    n=n/100;
+   { n=n/100;}
   printf("the no. after deletion of last 2 digits is %d",n);
   }
