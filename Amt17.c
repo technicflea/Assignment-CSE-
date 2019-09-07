@@ -4,6 +4,7 @@ void main()
   {
   int n;
   printf("please enter the no. of which you want to add last  two digits");
+  scanf("%d",&n);
   if(n/10==0)
     {printf("no. has less than two digits");
     }
