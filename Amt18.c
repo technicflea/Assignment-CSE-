@@ -11,6 +11,6 @@ void main()
       { goto starts;
       }
     else
-      n=n+(n%10);
+      {n=n+(n%10);}
   printf("the modified no. is %d",n);
   }
