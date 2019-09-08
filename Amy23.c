@@ -11,7 +11,7 @@
   scanf("%f%f",&e,&f);
   l=sqrt(pow(a-c,2)-pow(b-d,2));
     m=sqrt(pow(a-e,2)-pow(b-f,2));
-    n=sqrt(pow(e-c,2)-pow(f-d,2))
+    n=sqrt(pow(e-c,2)-pow(f-d,2));
     float s, area=0;
   
 
