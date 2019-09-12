@@ -1,0 +1,15 @@
+/*program, which reads a, b and c as sides of a triangle and prints the angle A in
+degree and radian. */
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int a,b,c;
+    double al,p;
+    printf("please enter the sides of triangle");
+    scanf("%d%d%d",&a,&b,&c);
+    p=(pow(b,2)+pow(c,2)-pow(a,2))/(2*b*c);
+    al=acos(p);
+    printf("the angle is %f radian and %f degree", al,(al*180)/3.14);
+    
+}
