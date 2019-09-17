@@ -2,23 +2,21 @@
 
 int main() 
 {
-    int i,n,x,sum=0,k,count=0;
+    int i,n,x,sum=0,flag=0;
     printf("give n ");
     scanf("%d",&n);
-    printf("enter k");
-    scanf("%d",&k);
     for(i=1;i<=n;i++)
     {
         scanf("%d",&x);
         if(x%2==0)
         {
-          count++;
+            int k=0;
+            k++;
         }
-        if (count>k)
+        if(k>1)
         {
         sum=sum+x;
         }
-        
     }
     printf("\n%d",sum);
-} 
+}
