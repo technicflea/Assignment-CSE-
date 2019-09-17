@@ -11,7 +11,7 @@ int main()
         if(x%2==0)
         {
           sum=sum=(i*x);
-          count++;
+          count=count+i;
         }
         
     }
