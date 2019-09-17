@@ -1,16 +1,21 @@
- #include<stdio.h>
+#include<stdio.h>
 
 int main() 
 {
-    int i,n,x,sum=0;
+    int i,n,x,sum=0,count=0;
     printf("give n ");
     scanf("%d",&n);
     for(i=1;i<=n;i++)
     {
         scanf("%d",&x);
-  
-  
+        if(x%2==0)
+        {
+          sum=sum=(i*x);
+          count++;
+        }
         
     }
-    printf("\n%d",sum);
+    int avg;
+    avg=sum/count;
+    printf("\n%d",avg);
 } 
