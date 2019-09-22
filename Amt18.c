@@ -7,7 +7,7 @@ void main()
   starts:
   printf("please keep the last digit less than 5");
   scanf("%d",&n);
-    if(n%10<=5)
+    if(n%10>=5)
       { goto starts;
       }
     else
